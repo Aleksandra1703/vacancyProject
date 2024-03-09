@@ -1,0 +1,489 @@
+{
+  "additionalInfo": {
+    "additionalProperty": {
+      "required": false
+    }
+  },
+  "fns": {
+    "fnsUrl": {
+      "value": "www.nalog.gov.ru",
+      "required": true
+    }
+  },
+  "agent": {
+    "operation": {
+      "required": false
+    },
+    "agentPhones": {
+      "required": false
+    },
+    "agentType": {
+      "required": false
+    },
+    "paymentAgentPhones": {
+      "required": false
+    }
+  },
+  "buyer": {
+    "contact": {
+      "phone": {
+        "required": false
+      },
+      "email": {
+        "value": "user@host.com",
+        "required": false
+      }
+    },
+    "inn": {
+      "required": false
+    },
+    "name": {
+      "required": false
+    }
+  },
+  "provider": {
+    "phonesToTransfer": {
+      "required": false
+    },
+    "name": {
+      "required": false
+    },
+    "address": {
+      "required": false
+    },
+    "inn": {
+      "required": false
+    },
+    "phones": {
+      "required": false
+    },
+    "sellerEmail": {
+      "value": "im@cantata.ru",
+      "required": true
+    }
+  },
+  "taxes": [],
+  "content": {
+    "calculationType": {
+      "value": "Sell",
+      "required": true
+    },
+    "total": {
+      "value": 5429.0,
+      "required": true
+    },
+    "cashTotal": {
+      "required": false
+    },
+    "cashlessTotal": {
+      "name": {
+        "value": "Безналичными",
+        "required": true
+      },
+      "value": {
+        "value": 5429.0,
+        "required": true
+      }
+    },
+    "prePaymentTotal": {
+      "required": false
+    },
+    "postPaymentTotal": {
+      "required": false
+    },
+    "considerationTotal": {
+      "required": false
+    },
+    "totalWithNds0": {
+      "required": false
+    },
+    "totalWithNdsFree": {
+      "value": 5429.0,
+      "required": false
+    },
+    "products": [
+      {
+        "name": {
+          "value": "Вишневый йогурт",
+          "required": false
+        },
+        "paymentMethod": {
+          "value": "FinalSettlement",
+          "required": false
+        },
+        "paymentSubject": {
+          "value": "Goods",
+          "required": false
+        },
+        "productTaxes": {
+          "ratePerOnePayment": {
+            "required": false
+          },
+          "exciseDuty": {
+            "required": false
+          },
+          "taxes": [
+            {
+              "type": {
+                "value": "Free",
+                "required": false
+              },
+              "value": {
+                "value": 0.0,
+                "required": false
+              }
+            }
+          ]
+        },
+        "price": {
+          "unit": {
+            "required": false
+          },
+          "count": {
+            "value": 500.0,
+            "required": false
+          },
+          "price": {
+            "value": 4.87,
+            "required": false
+          },
+          "total": {
+            "value": 2435.0,
+            "required": true
+          }
+        },
+        "agent": {
+          "operatorPhones": {
+            "required": false
+          },
+          "agentPhones": {
+            "required": false
+          },
+          "recipientOperatorPhones": {
+            "required": false
+          },
+          "operation": {
+            "required": false
+          },
+          "Name": {
+            "required": false
+          },
+          "operatorAddress": {
+            "required": false
+          },
+          "operatorInn": {
+            "required": false
+          },
+          "agentType": {
+            "required": false
+          }
+        },
+        "contractor": {
+          "name": {
+            "required": false
+          },
+          "inn": {
+            "required": false
+          },
+          "phones": {
+            "required": false
+          }
+        },
+        "productionInfo": {
+          "originCountryCode": {
+            "required": false
+          },
+          "customsDeclarationNumber": {
+            "required": false
+          }
+        },
+        "additional": {
+          "additionalProperty": {
+            "required": false
+          }
+        }
+      },
+      {
+        "name": {
+          "value": "Дикие ягоды",
+          "required": false
+        },
+        "paymentMethod": {
+          "value": "FinalSettlement",
+          "required": false
+        },
+        "paymentSubject": {
+          "value": "Goods",
+          "required": false
+        },
+        "productTaxes": {
+          "ratePerOnePayment": {
+            "required": false
+          },
+          "exciseDuty": {
+            "required": false
+          },
+          "taxes": [
+            {
+              "type": {
+                "value": "Free",
+                "required": false
+              },
+              "value": {
+                "value": 0.0,
+                "required": false
+              }
+            }
+          ]
+        },
+        "price": {
+          "unit": {
+            "required": false
+          },
+          "count": {
+            "value": 500.0,
+            "required": false
+          },
+          "price": {
+            "value": 4.04,
+            "required": false
+          },
+          "total": {
+            "value": 2020.0,
+            "required": true
+          }
+        },
+        "agent": {
+          "operatorPhones": {
+            "required": false
+          },
+          "agentPhones": {
+            "required": false
+          },
+          "recipientOperatorPhones": {
+            "required": false
+          },
+          "operation": {
+            "required": false
+          },
+          "operatorName": {
+            "required": false
+          },
+          "operatorAddress": {
+            "required": false
+          },
+          "operatorInn": {
+            "required": false
+          },
+          "agentType": {
+            "required": false
+          }
+        },
+        "contractor": {
+          "name": {
+            "required": false
+          },
+          "inn": {
+            "required": false
+          },
+          "phones": {
+            "required": false
+          }
+        },
+        "productionInfo": {
+          "originCountryCode": {
+            "required": false
+          },
+          "customsDeclarationNumber": {
+            "required": false
+          }
+        },
+        "additional": {
+          "additionalProperty": {
+            "required": false
+          }
+        }
+      },
+      {
+        "name": {
+          "value": "Королевские сливки",
+          "required": false
+        },
+        "paymentMethod": {
+          "value": "FinalSettlement",
+          "required": false
+        },
+        "paymentSubject": {
+          "value": "Goods",
+          "required": false
+        },
+        "productTaxes": {
+          "ratePerOnePayment": {
+            "required": false
+          },
+          "exciseDuty": {
+            "required": false
+          },
+          "taxes": [
+            {
+              "type": {
+                "value": "Free",
+                "required": false
+              },
+              "value": {
+                "value": 0.0,
+                "required": false
+              }
+            }
+          ]
+        },
+        "price": {
+          "unit": {
+            "required": false
+          },
+          "count": {
+            "value": 200.0,
+            "required": false
+          },
+          "price": {
+            "value": 4.87,
+            "required": false
+          },
+          "total": {
+            "value": 974.0,
+            "required": true
+          }
+        },
+        "agent": {
+          "operatorPhones": {
+            "required": false
+          },
+          "agentPhones": {
+            "required": false
+          },
+          "recipientOperatorPhones": {
+            "required": false
+          },
+          "operation": {
+            "required": false
+          },
+          "operatorName": {
+            "required": false
+          },
+          "operatorAddress": {
+            "required": false
+          },
+          "operatorInn": {
+            "required": false
+          },
+          "agentType": {
+            "required": false
+          }
+        },
+        "contractor": {
+          "name": {
+            "required": false
+          },
+          "inn": {
+            "required": false
+          },
+          "phones": {
+            "required": false
+          }
+        },
+        "productionInfo": {
+          "originCountryCode": {
+            "required": false
+          },
+          "customsDeclarationNumber": {
+            "required": false
+          }
+        },
+        "additional": {
+          "additionalProperty": {
+            "required": false
+          }
+        }
+      }
+    ]
+  },
+  "shift": {
+    "documentNumber": {
+      "value": 54,
+      "required": true
+    },
+    "shiftNumber": {
+      "value": 53,
+      "required": true
+    }
+  },
+  "organization": {
+    "inn": {
+      "value": "771522837773",
+      "required": true
+    },
+    "name": {
+      "value": "ИП Тамарлаков Вадим Валерьевич",
+      "required": true
+    },
+    "taxationSystems": {
+      "value": [
+        "UsnProfit"
+      ],
+      "required": false
+    }
+  },
+  "cashbox": {
+    "isInternet": {
+      "value": true,
+      "required": false
+    },
+    "machineNumber": {
+      "value": "KKT045545",
+      "required": false
+    },
+    "regNumber": {
+      "value": "0004639651053649",
+      "required": true
+    },
+    "address": {
+      "required": true
+    },
+    "retailPlace": {
+      "value": "https://www.cantata.ru",
+      "required": true
+    },
+    "fiscalSignature": {
+      "value": "1596255983",
+      "required": true
+    }
+  },
+  "cashier": {
+    "name": {
+      "required": false
+    }
+  },
+  "documentInfo": {
+    "ffdVersion": {
+      "value": "x0105",
+      "required": true
+    },
+    "fiscalDocumentType": {
+      "value": "CashReceipt",
+      "required": true
+    },
+    "dateTime": {
+      "value": "2020-09-14T19:15:00Z",
+      "required": true
+    },
+    "fnSerialNumber": {
+      "value": "9282430300534602",
+      "required": true
+    },
+    "fiscalDocumentNumber": {
+      "value": 1603,
+      "required": true
+    },
+    "canBeSentByEmail": true
+  }
+}
